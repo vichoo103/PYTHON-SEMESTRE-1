@@ -49,10 +49,10 @@ print("esta es una lista vacia",nueva_lista)
 
 
 
-
+#¿como accedo a un elemento especifico
 print(estudiantes[0])
 print(estudiantes[1])
-
+#reasignando el valor de la posicion 3 de la lista
 estudiantes[0] = "gabriela"
 print(estudiantes[0])
 
@@ -63,12 +63,65 @@ data_asig = [10023, "programacion",1,True]
 cod,ramo,semestre,estado= data_asig
 print(ramo)
 
-
+#
 print(list("python"))
 print(list(range(10)))
 print("\n")
 
 
+#05 -TUPLAS- (no son mutables)
+newtupla = tuple()
+grupo1 = ("daniel","cristian","felipe",200,100,"daniel")
+print("######## 05-TUPLAS-########")
+print(type(grupo1))
+
+#accediendo al primer elemento de la tupla
+print(grupo1[0])
+
+print("el elemento se repite:",grupo1.count("daniel"))
+
+
+print("indice del elemento:",grupo1.index("daniel"))
+
+#reasignando el primer elemento de la tupla 
+"""grupo1[0]="constanza"
+print(grupo1)"""
+
+#¿se puede sumar las tuplas?
+
+
+#obteniendo los trozos de la tupla
+grupo2 = ("pedro",100,"felipe","diego",2020,"alejandra")
+print("trozo de la tupla",grupo1[0:3])
+
+#¿entoces como puedo modificar la tupla , que puedo hacer?
+
+
+
+grupo1 = list(grupo1)
+print("la tupla ahora es de tipo",type(grupo1),"\n")
+print("\n")
+
+#06 - SETS (conjuntos)
+
+conjunto_vacio  = set()
+conjunto_vacio1 = {}#¿diccionario o set?
+print(type(conjunto_vacio1))
+conjunto_colores = set({"Azul","Rojo","Verde"}) #utilizando funcion set
+conjunto_animales = {"Gato","Perro","Loro"} # utilizando corchetes
+
+print("######## 06-SETS ########")
+print(type(conjunto_colores))
+print(type(conjunto_animales))
+print("el primer set contiene los siguientes colores:",conjunto_colores)
+print("El segundo set contiene los siguientes animales:",conjunto_animales)
+
+
+conjunto_colores.add("celeste")
+print("el set de colores se conforman:",conjunto_colores)
+
+
+print("el set de animales los conforman:",conjunto_animales)
 
 
 
