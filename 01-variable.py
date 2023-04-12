@@ -13,3 +13,32 @@ print("mi nuevo nombre es:",nombre)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
