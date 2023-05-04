@@ -94,7 +94,7 @@ print(ramo)
 print(list("python"))
 print(list(range(10,21)))
 print("\n")
-
+'''
 
 #05 -TUPLAS- (no son mutables)
 newtupla = tuple()
@@ -129,6 +129,7 @@ grupo1 = list(grupo1)
 print("la tupla ahora es de tipo",type(grupo1),"\n")
 print("\n")
 
+'''
 #06 - SETS (conjuntos)
 
 conjunto_vacio  = set()
@@ -177,6 +178,7 @@ imprimir(datos_personales)
 del datos_personales["Ciudad"]
 print("Diccionario con el campo eliminado:",datos_personales)
 '''
+
 
 
 
